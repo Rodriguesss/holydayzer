@@ -22,5 +22,5 @@ app.get('/holiday/:id', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Servidor ON - port: ${port}`)
+    console.log(`Servidor ON - porta: ${port}`)
 })
