@@ -8,7 +8,7 @@ export default function CheckHolidays(holidays) {
     }
 
     holidays.forEach(holiday => {
-        holiday.date === today.toLocaleDateString() && setHoliday(holiday.name)
+        holiday.date === today.toLocaleDateString('en-US') && setHoliday(holiday.name)
     })
 
     return objectHoliday.isHoliday ? 
